@@ -1,5 +1,7 @@
 import ProductDetailContainer from "@/features/products/components/ProductDetailContainer";
 
+export const dynamic = "force-dynamic";
+
 type ProductDetailPageProps = {
   params: Promise<{ id: string }>;
 };
